@@ -1,67 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descrição da página que estamos criando em aula">
-    <meta name="keywords" content="andre, site do andre, unitense, escola de programadores, programador, html, css, javascript, Programador, PROGRAMADOR">
-    <meta name="author" content="Andre">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Descrição da página que estamos criando em aula">
+        <meta name="keywords" content="andre, site do andre, unitense, escola de programadores, programador, html, css, javascript, Programador, PROGRAMADOR">
+        <meta name="author" content="Andre">
 
-    <title>PAGINA TESTE</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="IMG/favicon unintese.ico">
-</head>
-
-<body>
-    <div class="container">
+        <title>PAGINA TESTE</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="IMG/favicon unintese.ico">
+    </head>
     
-        <head>
-            <div class="center">
-                <img src="./IMG/Andre.jpg">
+    <body>
+        <header>
+            <div class="backgraundHeaderColor">
+                <div class="containerHeader">
+                    <img class="logoSite" src="IMG/logo AL.jpg">
+                    <nav class="containerButtons">
+                        <a class="buttonHeader" href="#apresentacao">Apresentação</a>
+                        <a class="buttonHeader" href="#skills">Skills</a>
+                        <a class="buttonHeader" href="#contato">Contato</a>
+                    </nav>
+                </div>
             </div>
-            <h1>Andre Luiz</h1>
-            <h2>Desenvolvedor de Software</h2>
-        </head>
-    
+        </header>
+
         <main>
-            <section>
-                <h3>Sobre Mim</h3>
-                <p>
-                    Natural de Sergipe, praticante de execicios, artes marciais e atualmente estudante de ADS ( analise de desenvolvimente de sistemas.) prazer Andre luiz tenho 22 anos e Sempre em busca de desenvolvimente e aperfeiçoamento profissional 
-                </p>
+            <section title="Apresentação">
+                <div id="apresentacao">
+                    <div>
+                        <h1>Andre</h1>
+                        <p>Se você está em busca de alguém capaz de tornar suas visões onlisne em verdadeiras obras-primas digitais, você está no lugar certo. Sou Andre do Desenvolvimento Web, e minha paixâo é transformar conceitos abstratos em experiências digitais tangíveis.</p>
+                    </div>
+                    <img width="500px" src="IMG/andre em pe.jpg">
+                </div>
             </section>
+
+            </section title="Contato">
+                <div id="contato">
+                    <p>Preencha o formulário e entrarei em contato</p>
+                    <div>
+
+                        <form>
+                            <label for="nome">Nome:</label>
+                            <input type="text" nome="nome"/>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" nome="email"/>
+
+                            <label for="numero">Telefne:</label>
+                            <input type="phone" nome="numero"/>
+
+                            <button type="submit">Enviar</button>
+                        </form>
+
+                    </div>
+                </div>
             <section>
-                <h3>Formação e Projetos</h3>
-                <p>
-                    Cursando Analise de Desemvolvimento de Sistemas - Conclusão 2026
-                    Criação de uma calculadora em Javas
-                </p>
-            </section>
-            <div> <title> contato</title>
-                <label for="nome">Nome:</label>
-                <input type="Nome">
 
-                <label for="email">E-mail:</label>
-                <input type="E-mail">
-                
-                <label for="Telefone">Telefone:</label>
-                <input type="Telefone">
 
-                <button>Enviar</button>
-            </div>
         </main>
-    
-        <footer> <title> link github</title>
+
+        <footer>
             <div>
-                <a > <!-- o href é pra coloca o meu link do GitHub target="-blank" esse serve pra quando vc clica o link é aberdo em outra aba rel="noopener noreferrer" esses ajudam na parte como o google vai acha o seu site e na parte de segurança. -->
-                    <a href="https://github.com/eusouandreluiz" target="_blank"><img src="IMG/GitHub.svg.jpg"></a>
-                    <a href="mailto:alfs2001@icloud.com"></a>
-                    <p>GitHub</p>
-                </a>
+                <a href="" target="_blank" ><img src="IMG/GitHub.svg.jpg"></a>
             </div>
+
         </footer>
-    </div>
-    
-</body>
+    </body>
 
 </html>
